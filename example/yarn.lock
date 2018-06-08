@@ -6003,13 +6003,12 @@ react-router@^4.2.0, react-router@^4.3.1:
 
 "react-sourcebuffer-montage@github:slopen/react-sourcebuffer-montage":
   version "1.0.0"
-  resolved "https://codeload.github.com/slopen/react-sourcebuffer-montage/tar.gz/d668e98ea26185bb5edc289ebe86b2c8a04a7d31"
+  resolved "https://codeload.github.com/slopen/react-sourcebuffer-montage/tar.gz/24d3fd8eefebc6d1c5b36e61a00fe8f09f35f68d"
   dependencies:
     font-awesome "^4.7.0"
     lodash.debounce "^4.0.8"
     lodash.flatten "^4.4.0"
     lodash.throttle "^4.1.1"
-    prop-types "^15.6.1"
     rc-slider "github:slopen/slider"
     rc-tooltip "^3.7.2"
     react "^16.3.2"

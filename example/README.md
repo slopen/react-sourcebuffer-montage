@@ -22,6 +22,8 @@ $ sh bootstrap.sh
 $ npm start
 ```
 
+open http://localhost:9090 in browser
+
 ## usage
 
 * [example component](src/components/content/montage/index.js)
