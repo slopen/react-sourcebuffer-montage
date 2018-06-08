@@ -16,9 +16,14 @@ $ chmod 777 *.sh
 $ sh bootstrap.sh
 ```
 
-
 ## start
 
 ```
 $ npm start
 ```
+
+## usage
+
+* [example component](src/components/content/montage/index.js)
+* [less variables override](src/styles/components/editor.less)
+
