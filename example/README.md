@@ -26,4 +26,5 @@ $ npm start
 
 * [example component](src/components/content/montage/index.js)
 * [less variables override](src/styles/components/editor.less)
+* [bootstrapped data example](data/videos.js)
 

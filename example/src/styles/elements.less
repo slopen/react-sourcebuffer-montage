@@ -22,6 +22,11 @@ body {
 	color:@main-text-color;
 }
 
+#root{
+	display:flex;
+    padding:2em;
+}
+
 h1,
 h2,
 h3,
@@ -41,38 +46,4 @@ a {
 	&:active{
 		opacity: 1;
 	}
-}
-
-.inactive{
-	pointer-events: none;
-}
-
-.btn {
-	text-align:center;
-	font-family: 'Roboto Mono';
-	font-weight: 300;
-	min-width: 12em;
-    padding: .8em 2em;
-    text-transform: uppercase;
-    border-radius: 1px;
-    box-shadow: none !important;
-
-    &.btn-reset{
-    	background-color: #ff9800;
-    }
-
-    &.btn-confirm {
-    	background-color: #009688;
-    }
-
-    &.btn-default {
-    	background-color: lighten(@main-bg-color, 5%) !important;
-    	color:@main-text-color;
-
-    	&:hover{
-    		background-color:lighten(@main-bg-color, 7%) !important;
-    	}
-
-    }
-
 }
