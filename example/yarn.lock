@@ -6003,7 +6003,7 @@ react-router@^4.2.0, react-router@^4.3.1:
 
 "react-sourcebuffer-montage@github:slopen/react-sourcebuffer-montage":
   version "1.0.0"
-  resolved "https://codeload.github.com/slopen/react-sourcebuffer-montage/tar.gz/24d3fd8eefebc6d1c5b36e61a00fe8f09f35f68d"
+  resolved "https://codeload.github.com/slopen/react-sourcebuffer-montage/tar.gz/19211f2d3636178e00e52210532766b0d5973224"
   dependencies:
     font-awesome "^4.7.0"
     lodash.debounce "^4.0.8"
