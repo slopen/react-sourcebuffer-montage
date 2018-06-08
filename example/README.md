@@ -8,7 +8,7 @@ $ cd react-sourcebuffer-montage/example
 $ npm i
 ```
 
-### bootstrap videos
+## bootstrap videos
 
 ```
 $ cd data && mkdir videos
@@ -17,8 +17,8 @@ $ sh bootstrap.sh
 ```
 
 
-### start
+## start
 
 ```
-$ yarn start
+$ npm start
 ```
