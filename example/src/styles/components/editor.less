@@ -1,6 +1,11 @@
+// IMPORT DEFAULTS:
+
+// webpack project will have something like
+// @import '~react-sourcebuffer-montage/variables.less';
 @import '../../../../src/styles/variables.less';
 
-// override
+
+// OVERRIDE SOME:
 
 @scrollbar-background:#222;
 // @scrollbar-thumb:#ff9800;
@@ -22,12 +27,8 @@
 // @montage-control-range-handle-background:#ff9800;
 
 
-@import '../../../../src/styles/styles.less';
+// FINALLY STYLES:
 
-.content.montage {
-	.actions{
-		display: flex;
-		justify-content: space-between;
-		margin:4em 0 2em;
-	}
-}
+// webpack project will have something like
+// @import '~react-sourcebuffer-montage/styles.less';
+@import '../../../../src/styles/styles.less';
