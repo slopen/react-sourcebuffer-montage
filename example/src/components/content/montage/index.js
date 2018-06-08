@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import config from 'config';
 import api from 'components/api';
 
-import MontageEditor from '../../../../../lib';
+import MontageEditor from 'react-sourcebuffer-montage';
 
 const {
 	videoCodecs,

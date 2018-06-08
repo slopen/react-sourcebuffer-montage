@@ -42,7 +42,6 @@
     "lodash.debounce": "^4.0.8",
     "lodash.flatten": "^4.4.0",
     "lodash.throttle": "^4.1.1",
-    "prop-types": "^15.6.1",
     "rc-slider": "github:slopen/slider",
     "rc-tooltip": "^3.7.2",
     "react": "^16.3.2"

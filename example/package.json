@@ -43,19 +43,14 @@
     "url-loader": "^1.0.1",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3",
+    "process-env": "^1.1.0",
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "font-awesome": "^4.7.0",
-    "lodash.debounce": "^4.0.8",
-    "lodash.flatten": "^4.4.0",
-    "lodash.throttle": "^4.1.1",
-    "process-env": "^1.1.0",
-    "rc-slider": "github:slopen/slider",
-    "rc-tooltip": "^3.7.2",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-router": "^4.2.0",
-    "react-router-dom": "^4.2.2"
+    "react-router-dom": "^4.2.2",
+    "react-sourcebuffer-montage": "github:slopen/react-sourcebuffer-montage"
   }
 }

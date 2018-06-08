@@ -1,5 +1,6 @@
 @import '~rc-slider/assets/index.css';
 @import '~rc-tooltip/assets/bootstrap.css';
+@import '~font-awesome/css/font-awesome.css';
 .loader-bar {
   display: block;
   position: relative;

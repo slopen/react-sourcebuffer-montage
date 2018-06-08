@@ -99,139 +99,140 @@
   version "0.7.0"
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
-"@webassemblyjs/ast@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.5.10.tgz#7f1e81149ca4e103c9e7cc321ea0dcb83a392512"
+"@webassemblyjs/ast@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.5.12.tgz#a9acbcb3f25333c4edfa1fdf3186b1ccf64e6664"
   dependencies:
-    "@webassemblyjs/helper-module-context" "1.5.10"
-    "@webassemblyjs/helper-wasm-bytecode" "1.5.10"
-    "@webassemblyjs/wast-parser" "1.5.10"
+    "@webassemblyjs/helper-module-context" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/wast-parser" "1.5.12"
     debug "^3.1.0"
     mamacro "^0.0.3"
 
-"@webassemblyjs/floating-point-hex-parser@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.10.tgz#ae48705fd58927df62023f114520b8215330ff86"
+"@webassemblyjs/floating-point-hex-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/floating-point-hex-parser/-/floating-point-hex-parser-1.5.12.tgz#0f36044ffe9652468ce7ae5a08716a4eeff9cd9c"
 
-"@webassemblyjs/helper-api-error@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.10.tgz#0baf9453ce2fd8db58f0fdb4fb2852557c71d5a7"
+"@webassemblyjs/helper-api-error@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-api-error/-/helper-api-error-1.5.12.tgz#05466833ff2f9d8953a1a327746e1d112ea62aaf"
 
-"@webassemblyjs/helper-buffer@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-buffer/-/helper-buffer-1.5.10.tgz#abee4284161e9cd6ba7619785ca277bfcb8052ce"
+"@webassemblyjs/helper-buffer@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-buffer/-/helper-buffer-1.5.12.tgz#1f0de5aaabefef89aec314f7f970009cd159c73d"
   dependencies:
     debug "^3.1.0"
 
-"@webassemblyjs/helper-code-frame@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.5.10.tgz#4e23c05431665f16322104580af7c06253d4b4e0"
+"@webassemblyjs/helper-code-frame@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-code-frame/-/helper-code-frame-1.5.12.tgz#3cdc1953093760d1c0f0caf745ccd62bdb6627c7"
   dependencies:
-    "@webassemblyjs/wast-printer" "1.5.10"
+    "@webassemblyjs/wast-printer" "1.5.12"
 
-"@webassemblyjs/helper-fsm@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.10.tgz#490bab613ea255a9272b764826d3cc9d15170676"
+"@webassemblyjs/helper-fsm@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-fsm/-/helper-fsm-1.5.12.tgz#6bc1442b037f8e30f2e57b987cee5c806dd15027"
 
-"@webassemblyjs/helper-module-context@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-module-context/-/helper-module-context-1.5.10.tgz#6fca93585228bf33e6da076d0a1373db1fdd6580"
+"@webassemblyjs/helper-module-context@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-module-context/-/helper-module-context-1.5.12.tgz#b5588ca78b33b8a0da75f9ab8c769a3707baa861"
   dependencies:
+    debug "^3.1.0"
     mamacro "^0.0.3"
 
-"@webassemblyjs/helper-wasm-bytecode@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.5.10.tgz#90f6da93c7a186bfb2f587de442982ff533c4b44"
+"@webassemblyjs/helper-wasm-bytecode@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-wasm-bytecode/-/helper-wasm-bytecode-1.5.12.tgz#d12a3859db882a448891a866a05d0be63785b616"
 
-"@webassemblyjs/helper-wasm-section@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.5.10.tgz#d64292a19f7f357c49719461065efdf7ec975d66"
+"@webassemblyjs/helper-wasm-section@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/helper-wasm-section/-/helper-wasm-section-1.5.12.tgz#ff9fe1507d368ad437e7969d25e8c1693dac1884"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-buffer" "1.5.10"
-    "@webassemblyjs/helper-wasm-bytecode" "1.5.10"
-    "@webassemblyjs/wasm-gen" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
     debug "^3.1.0"
 
-"@webassemblyjs/ieee754@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.10.tgz#257cad440dd6c8a339402d31e035ba2e38e9c245"
+"@webassemblyjs/ieee754@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/ieee754/-/ieee754-1.5.12.tgz#ee9574bc558888f13097ce3e7900dff234ea19a4"
   dependencies:
     ieee754 "^1.1.11"
 
-"@webassemblyjs/leb128@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/leb128/-/leb128-1.5.10.tgz#a8e4fe5f4b16daadb241fcc44d9735e9f27b05a3"
+"@webassemblyjs/leb128@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/leb128/-/leb128-1.5.12.tgz#0308eec652765ee567d8a5fa108b4f0b25b458e1"
   dependencies:
     leb "^0.3.0"
 
-"@webassemblyjs/utf8@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/utf8/-/utf8-1.5.10.tgz#0b3b6bc86b7619c5dc7b2789db6665aa35689983"
+"@webassemblyjs/utf8@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/utf8/-/utf8-1.5.12.tgz#d5916222ef314bf60d6806ed5ac045989bfd92ce"
 
-"@webassemblyjs/wasm-edit@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-edit/-/wasm-edit-1.5.10.tgz#0fe80f19e57f669eab1caa8c1faf9690b259d5b9"
+"@webassemblyjs/wasm-edit@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-edit/-/wasm-edit-1.5.12.tgz#821c9358e644a166f2c910e5af1b46ce795a17aa"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-buffer" "1.5.10"
-    "@webassemblyjs/helper-wasm-bytecode" "1.5.10"
-    "@webassemblyjs/helper-wasm-section" "1.5.10"
-    "@webassemblyjs/wasm-gen" "1.5.10"
-    "@webassemblyjs/wasm-opt" "1.5.10"
-    "@webassemblyjs/wasm-parser" "1.5.10"
-    "@webassemblyjs/wast-printer" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/helper-wasm-section" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
+    "@webassemblyjs/wasm-opt" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    "@webassemblyjs/wast-printer" "1.5.12"
     debug "^3.1.0"
 
-"@webassemblyjs/wasm-gen@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-gen/-/wasm-gen-1.5.10.tgz#8b29ddd3651259408ae5d5c816a011fb3f3f3584"
+"@webassemblyjs/wasm-gen@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-gen/-/wasm-gen-1.5.12.tgz#0b7ccfdb93dab902cc0251014e2e18bae3139bcb"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-wasm-bytecode" "1.5.10"
-    "@webassemblyjs/ieee754" "1.5.10"
-    "@webassemblyjs/leb128" "1.5.10"
-    "@webassemblyjs/utf8" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/ieee754" "1.5.12"
+    "@webassemblyjs/leb128" "1.5.12"
+    "@webassemblyjs/utf8" "1.5.12"
 
-"@webassemblyjs/wasm-opt@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-opt/-/wasm-opt-1.5.10.tgz#569e45ab1b2bf0a7706cdf6d1b51d1188e9e4c7b"
+"@webassemblyjs/wasm-opt@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-opt/-/wasm-opt-1.5.12.tgz#bd758a8bc670f585ff1ae85f84095a9e0229cbc9"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-buffer" "1.5.10"
-    "@webassemblyjs/wasm-gen" "1.5.10"
-    "@webassemblyjs/wasm-parser" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-buffer" "1.5.12"
+    "@webassemblyjs/wasm-gen" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
     debug "^3.1.0"
 
-"@webassemblyjs/wasm-parser@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-parser/-/wasm-parser-1.5.10.tgz#3e1017e49f833f46b840db7cf9d194d4f00037ff"
+"@webassemblyjs/wasm-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wasm-parser/-/wasm-parser-1.5.12.tgz#7b10b4388ecf98bd7a22e702aa62ec2f46d0c75e"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-api-error" "1.5.10"
-    "@webassemblyjs/helper-wasm-bytecode" "1.5.10"
-    "@webassemblyjs/ieee754" "1.5.10"
-    "@webassemblyjs/leb128" "1.5.10"
-    "@webassemblyjs/wasm-parser" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-api-error" "1.5.12"
+    "@webassemblyjs/helper-wasm-bytecode" "1.5.12"
+    "@webassemblyjs/ieee754" "1.5.12"
+    "@webassemblyjs/leb128" "1.5.12"
+    "@webassemblyjs/utf8" "1.5.12"
 
-"@webassemblyjs/wast-parser@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wast-parser/-/wast-parser-1.5.10.tgz#1a3235926483c985a00ee8ebca856ffda9544934"
+"@webassemblyjs/wast-parser@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wast-parser/-/wast-parser-1.5.12.tgz#9cf5ae600ecae0640437b5d4de5dd6b6088d0d8b"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/floating-point-hex-parser" "1.5.10"
-    "@webassemblyjs/helper-api-error" "1.5.10"
-    "@webassemblyjs/helper-code-frame" "1.5.10"
-    "@webassemblyjs/helper-fsm" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/floating-point-hex-parser" "1.5.12"
+    "@webassemblyjs/helper-api-error" "1.5.12"
+    "@webassemblyjs/helper-code-frame" "1.5.12"
+    "@webassemblyjs/helper-fsm" "1.5.12"
     long "^3.2.0"
     mamacro "^0.0.3"
 
-"@webassemblyjs/wast-printer@1.5.10":
-  version "1.5.10"
-  resolved "https://registry.npmjs.org/@webassemblyjs/wast-printer/-/wast-printer-1.5.10.tgz#adb38831ba45efd0a5c7971b666e179b64f68bba"
+"@webassemblyjs/wast-printer@1.5.12":
+  version "1.5.12"
+  resolved "https://registry.npmjs.org/@webassemblyjs/wast-printer/-/wast-printer-1.5.12.tgz#563ca4d01b22d21640b2463dc5e3d7f7d9dac520"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/wast-parser" "1.5.10"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/wast-parser" "1.5.12"
     long "^3.2.0"
 
 abbrev@1:
@@ -261,7 +262,7 @@ acorn@^3.0.4:
   version "3.3.0"
   resolved "https://registry.npmjs.org/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
-acorn@^5.0.0, acorn@^5.5.0:
+acorn@^5.0.0, acorn@^5.5.0, acorn@^5.6.2:
   version "5.6.2"
   resolved "https://registry.npmjs.org/acorn/-/acorn-5.6.2.tgz#b1da1d7be2ac1b4a327fb9eab851702c5045b4e7"
 
@@ -1594,12 +1595,12 @@ caniuse-api@^1.5.2:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30000850"
-  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000850.tgz#965c816641576d08709bee12256a0550164b95d5"
+  version "1.0.30000851"
+  resolved "https://registry.npmjs.org/caniuse-db/-/caniuse-db-1.0.30000851.tgz#8a0d3ca4dde72068560acc98bacf75a359e8d3e3"
 
 caniuse-lite@^1.0.30000844:
-  version "1.0.30000850"
-  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000850.tgz#e68a88db4ea598b4c33b8419f7385473e4802495"
+  version "1.0.30000851"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30000851.tgz#3b498aebf9f92cf6cff4ab54d13b557c0b590533"
 
 capture-stack-trace@^1.0.0:
   version "1.0.0"
@@ -1676,9 +1677,11 @@ chownr@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmjs.org/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
 
-chrome-trace-event@^0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-0.1.3.tgz#d395af2d31c87b90a716c831fe326f69768ec084"
+chrome-trace-event@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/chrome-trace-event/-/chrome-trace-event-1.0.0.tgz#45a91bd2c20c9411f0963b5aaeb9a1b95e09cc48"
+  dependencies:
+    tslib "^1.9.0"
 
 ci-info@^1.0.0:
   version "1.1.3"
@@ -1710,9 +1713,9 @@ class-utils@^0.3.5:
     isobject "^3.0.0"
     static-extend "^0.1.1"
 
-classnames@^2.2.5:
-  version "2.2.5"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
+classnames@^2.2.5, classnames@^2.2.6:
+  version "2.2.6"
+  resolved "https://registry.npmjs.org/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
 
 cli-boxes@^1.0.0:
   version "1.0.0"
@@ -5938,10 +5941,11 @@ rc-tooltip@^3.7.0, rc-tooltip@^3.7.2:
     rc-trigger "^2.2.2"
 
 rc-trigger@^2.2.2:
-  version "2.5.1"
-  resolved "https://registry.npmjs.org/rc-trigger/-/rc-trigger-2.5.1.tgz#a64e06d9bff05d23e7d18c558048ce75a51d6ac9"
+  version "2.5.3"
+  resolved "https://registry.npmjs.org/rc-trigger/-/rc-trigger-2.5.3.tgz#aa3d9a9b20c51d05f6f35d36fa41074f70f6cd64"
   dependencies:
     babel-runtime "6.x"
+    classnames "^2.2.6"
     prop-types "15.x"
     rc-align "^2.4.0"
     rc-animate "2.x"
@@ -5996,6 +6000,19 @@ react-router@^4.2.0, react-router@^4.3.1:
     path-to-regexp "^1.7.0"
     prop-types "^15.6.1"
     warning "^4.0.1"
+
+"react-sourcebuffer-montage@github:slopen/react-sourcebuffer-montage":
+  version "1.0.0"
+  resolved "https://codeload.github.com/slopen/react-sourcebuffer-montage/tar.gz/d668e98ea26185bb5edc289ebe86b2c8a04a7d31"
+  dependencies:
+    font-awesome "^4.7.0"
+    lodash.debounce "^4.0.8"
+    lodash.flatten "^4.4.0"
+    lodash.throttle "^4.1.1"
+    prop-types "^15.6.1"
+    rc-slider "github:slopen/slider"
+    rc-tooltip "^3.7.2"
+    react "^16.3.2"
 
 react@^16.3.2:
   version "16.4.0"
@@ -7480,19 +7497,19 @@ webpack-sources@^1.0.1, webpack-sources@^1.1.0:
     source-map "~0.6.1"
 
 webpack@^4.8.3:
-  version "4.11.1"
-  resolved "https://registry.npmjs.org/webpack/-/webpack-4.11.1.tgz#1aa0b936f7ae93a52cf38d2ad0d0f46dcf3c2723"
+  version "4.12.0"
+  resolved "https://registry.npmjs.org/webpack/-/webpack-4.12.0.tgz#14758e035ae69747f68dd0edf3c5a572a82bdee9"
   dependencies:
-    "@webassemblyjs/ast" "1.5.10"
-    "@webassemblyjs/helper-module-context" "1.5.10"
-    "@webassemblyjs/wasm-edit" "1.5.10"
-    "@webassemblyjs/wasm-opt" "1.5.10"
-    "@webassemblyjs/wasm-parser" "1.5.10"
-    acorn "^5.0.0"
+    "@webassemblyjs/ast" "1.5.12"
+    "@webassemblyjs/helper-module-context" "1.5.12"
+    "@webassemblyjs/wasm-edit" "1.5.12"
+    "@webassemblyjs/wasm-opt" "1.5.12"
+    "@webassemblyjs/wasm-parser" "1.5.12"
+    acorn "^5.6.2"
     acorn-dynamic-import "^3.0.0"
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
-    chrome-trace-event "^0.1.1"
+    chrome-trace-event "^1.0.0"
     enhanced-resolve "^4.0.0"
     eslint-scope "^3.7.1"
     json-parse-better-errors "^1.0.2"
