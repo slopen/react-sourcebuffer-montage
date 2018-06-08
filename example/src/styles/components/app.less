@@ -1,0 +1,47 @@
+#root{
+	display:flex;
+    padding:2em;
+
+	.loader-bar{
+	    flex: 1;
+	    align-self: center;
+	    max-width: 66.8%;
+	    margin: 0 auto;
+	    border-radius: 1px;
+	}
+
+	.app {
+		width:100%;
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+
+		.app-content{
+			padding:1.5em;
+			display:flex;
+			flex:1;
+		}
+	}
+
+	.app-init-error{
+	    flex: 1;
+	    align-self: center;
+	    max-width: 66.8%;
+	    margin: 0 auto;
+	    border-radius: 1px;
+	    text-align: center;
+	    font-size: 1.4em;
+	    opacity: .8;
+
+	    a{
+	    	text-decoration: underline !important;
+	    }
+
+	    .fa{
+	    	font-size:300%;
+	    	color:fade(red, 85%);
+	    	text-shadow: 0 0 2px fade(#000, 90%);
+	    }
+	}
+
+}

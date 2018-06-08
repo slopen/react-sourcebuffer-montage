@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>react-sourcebuffer-montage</title>
+		<style>
+			@keyframes loader-stripe-gray {
+				0% {transform: translate3d(-150%, 0, 0);}
+				100% {transform: translate3d(150%, 0, 0);}
+			}
+			@keyframes loader-rainbow-gray {
+				0% {background: #111;}
+				25% {background: #222;}
+				50% {background: #333;}
+				75% {background: #222;}
+				100% {background: #111;}
+			}
+			html, body, #root{
+				margin:0;
+				padding:0;
+				height:100%;
+			}
+			html{
+				background-color: #111;
+			}
+			#root{
+				display:flex;
+			}
+			.loader-bar-gray{
+			  flex: 1;
+	    	  align-self: center;
+	    	  margin: 0 auto;
+	    	  border-radius: 1px;
+	    	  max-width: 66.8%;
+			  display: block;
+			  position: relative;
+			  height: 3px;
+			  background: transparent;
+			  overflow: hidden;
+			  animation: loader-rainbow-gray 2s infinite linear;
+			}
+			.loader-bar-gray:after{
+				display: block;
+				content: " ";
+				position: absolute;
+				width: 110%;
+				border-bottom:3px dashed #000;
+				left: 0;
+				transform: translate3d(-150%, 0, 0);
+				animation: loader-stripe-gray 2s infinite linear;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="root">
+			<div class="loader-bar-gray"></div>
+		</div>
+	</body>
+	<script src="http://localhost:9090/index.js"></script>
+</html>

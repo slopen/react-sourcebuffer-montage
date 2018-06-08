@@ -1,0 +1,390 @@
+@import '~rc-slider/assets/index.css';
+@import '~rc-tooltip/assets/bootstrap.css';
+.loader-bar {
+  display: block;
+  position: relative;
+  height: 3px;
+  background: transparent;
+  overflow: hidden;
+  animation: loader-rainbow 3s infinite linear;
+}
+@keyframes loader-stripe {
+  0% {
+    transform: translate3d(-150%, 0, 0);
+  }
+  100% {
+    transform: translate3d(150%, 0, 0);
+  }
+}
+@keyframes loader-rainbow {
+  0% {
+    background: #6542a6;
+  }
+  25% {
+    background: #3b5999;
+  }
+  50% {
+    background: #3fa3c3;
+  }
+  75% {
+    background: #0176d7;
+  }
+  100% {
+    background: #e62217;
+  }
+}
+.loader-bar:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  width: 110%;
+  height: 100%;
+  background: #000;
+  left: 0;
+  transform: translate3d(-150%, 0, 0);
+  animation: loader-stripe 3s infinite linear;
+}
+.loader-bar-gray {
+  display: block;
+  position: relative;
+  height: 3px;
+  background: transparent;
+  overflow: hidden;
+  animation: loader-gray 3s infinite linear;
+}
+@keyframes loader-stripe-gray {
+  0% {
+    transform: translate3d(-150%, 0, 0);
+  }
+  100% {
+    transform: translate3d(150%, 0, 0);
+  }
+}
+@keyframes loader-gray {
+  0% {
+    background: #111;
+  }
+  25% {
+    background: #222;
+  }
+  50% {
+    background: #333;
+  }
+  75% {
+    background: #222;
+  }
+  100% {
+    background: #111;
+  }
+}
+.loader-bar-gray:after {
+  display: block;
+  content: " ";
+  position: absolute;
+  width: 110%;
+  border-bottom: 3px dashed #000;
+  left: 0;
+  transform: translate3d(-150%, 0, 0);
+  animation: loader-stripe-gray 3s infinite linear;
+}
+.montage-editor .video-container {
+  position: relative;
+}
+.montage-editor .video-container video {
+  max-width: 100%;
+  width: 100%;
+  cursor: pointer;
+  display: block;
+}
+.montage-editor .video-container .play-btn {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.7s ease, background-color 0.4s;
+  top: 50%;
+  left: 50%;
+  margin-top: -22.5px;
+  margin-left: -45px;
+  font-size: 32px;
+  line-height: 1.5em;
+  height: 1.5em;
+  width: 3em;
+  display: block;
+  position: absolute;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgba(115, 133, 159, 0.5);
+  border-radius: 6px;
+}
+.montage-editor .video-container .play-btn .fa {
+  position: absolute;
+  top: 0;
+  left: 3%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 75%;
+}
+.montage-editor .video-container .play-btn.paused {
+  opacity: 1;
+}
+.montage-editor .video-container:hover .play-btn {
+  background-color: rgba(43, 51, 63, 0.7);
+}
+.montage-editor .montage-controls {
+  margin: 3em 0;
+  height: 5em;
+  position: relative;
+  min-width: 100%;
+}
+.montage-editor .montage-controls.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.montage-editor .montage-controls .timeline {
+  height: 100%;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.montage-editor .montage-controls .timeline .clip {
+  height: 100%;
+  background-size: auto 100%;
+  border-right: 1px solid transparent;
+}
+.montage-editor .montage-controls .timeline .clip:last-child {
+  border-right: 0 none;
+}
+.montage-editor .montage-controls .playback-control {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 4;
+  margin-left: 0.35em;
+  margin-right: 0.35em;
+}
+.montage-editor .montage-controls .playback-control .rc-slider {
+  height: 100%;
+  padding: 0;
+  border-radius: 0;
+  min-width: 1px;
+}
+.montage-editor .montage-controls .playback-control .rc-slider .rc-slider-rail,
+.montage-editor .montage-controls .playback-control .rc-slider .rc-slider-track {
+  height: 100%;
+  border-radius: 0;
+}
+.montage-editor .montage-controls .playback-control .rc-slider .rc-slider-track,
+.montage-editor .montage-controls .playback-control .rc-slider .rc-slider-rail {
+  background-color: transparent;
+}
+.montage-editor .montage-controls .playback-control .rc-slider .rc-slider-handle {
+  height: 100%;
+  border: 0 none !important;
+  border-radius: 3px;
+  margin-top: 0;
+  width: 0.7em;
+  margin-left: -5px;
+  box-shadow: 0 0 2px #555;
+  background-color: #FFF;
+}
+.montage-editor .montage-controls .playback-control.disabled .rc-slider-handle {
+  display: none;
+}
+.montage-editor .montage-controls .slice-control {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1em;
+  bottom: -2.4em;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity .6s ease;
+}
+.montage-editor .montage-controls .slice-control .slice-handle {
+  position: absolute;
+  top: 0;
+  bottom: 1.8em;
+  width: 0;
+  border-right: 2px dashed #FFF;
+  z-index: 1;
+  margin-left: -1px;
+  pointer-events: none;
+}
+.montage-editor .montage-controls .slice-control .slice-handle .action {
+  position: absolute;
+  bottom: -1.8em;
+  color: #FFF;
+  text-shadow: 0 0 1px #000;
+  padding: .3em 0;
+  display: block;
+  width: 2em;
+  margin-left: -1em;
+  text-align: center;
+  line-height: 1;
+}
+.montage-editor .montage-controls .slice-control .slice-handle .action .fa {
+  transform: rotate(-90deg);
+  font-size: 125%;
+}
+.montage-editor .montage-controls .slice-control .slice-handle .slice-tooltip {
+  position: absolute;
+  top: -1.6em;
+  font-size: 60%;
+  width: 6em;
+  margin-left: -3em;
+  font-family: monospace;
+  color: #FFF;
+  text-shadow: 0 0 1px #000;
+  padding: .3em 0;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  letter-spacing: -0.8px;
+}
+.montage-editor .montage-controls .slice-control .listener {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+  z-index: 10;
+  cursor: pointer;
+}
+.montage-editor .montage-controls .slice-control.active {
+  opacity: 1;
+}
+.montage-editor .montage-controls .slice-control.active.disabled .slice-handle {
+  border-color: #DDD;
+}
+.montage-editor .montage-controls .slice-control.active.disabled .listener {
+  cursor: default;
+}
+.montage-editor .montage-controls .slice-control.active.disabled .action {
+  opacity: .2;
+}
+.montage-editor .montage-controls .range-control {
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  padding: .2em 0;
+  height: calc(100% + .4em);
+  margin-top: -0.2em;
+}
+.montage-editor .montage-controls .range-control .rc-slider {
+  height: 100%;
+  padding: 0;
+  margin: auto;
+  border-radius: 0;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-rail,
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-track {
+  height: 100%;
+  border-radius: 0;
+  background-color: transparent;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-track:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-track:nth-child(odd) {
+  margin-top: -0.2em;
+  height: calc(100% + .4em);
+  border-top: 0.2em solid #ff9800;
+  border-bottom: 0.2em solid #ff9800;
+  background-color: transparent;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle {
+  width: 1.2em;
+  height: calc(100% + .4em);
+  margin: -0.2em 0 0 -0.6em;
+  top: 0;
+  border: 0 none;
+  border-radius: 0;
+  background-color: #ff9800;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle .fa {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1em;
+  margin-top: -0.3em;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  transform: scale(1, 2);
+  display: inline-block;
+  font-family: 'FontAwesome';
+  line-height: 1;
+  font-size: 1em;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle .fa.fa-chevron-right {
+  margin-right: -0.1em;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle .fa.fa-chevron-left {
+  margin-left: -0.1em;
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle:nth-child(even) {
+  border-radius: 1px 0 0 1px;
+  box-shadow: -1px 0 1px rgba(0, 0, 0, 0.2);
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-handle:nth-child(odd) {
+  border-radius: 0 1px 1px 0;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.2);
+}
+.montage-editor .montage-controls .range-control .rc-slider .rc-slider-step {
+  height: 100%;
+  border-radius: 0;
+  border: 0 none;
+}
+.montage-editor .control-container {
+  overflow-x: auto;
+}
+.montage-editor .control-container::-webkit-scrollbar {
+  height: 10px;
+  background-color: #333;
+}
+.montage-editor .control-container::-webkit-scrollbar-thumb {
+  background: #ff9800;
+}
+.montage-editor .control-container .wrap {
+  padding: 0 .6em;
+  min-width: 100%;
+}
+.montage-editor .loader-bar-progress {
+  margin: .5em auto;
+  position: relative;
+  background-color: #999;
+  height: 3px;
+  border-radius: 1px;
+  overflow: hidden;
+  width: 100%;
+}
+.montage-editor .loader-bar-progress .handle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  transition: width 0.8s ease-in-out;
+  animation: loader-rainbow 2s infinite linear;
+  z-index: 1;
+}
+.rc-slider-tooltip.rc-slider-tooltip-placement-top {
+  padding: 0 0 8px;
+}
+.rc-slider-tooltip .rc-slider-tooltip-inner {
+  padding: 6px 4px;
+  border-radius: 1px;
+  box-shadow: 0 0 1px #333;
+  font-family: monospace;
+  letter-spacing: -2px;
+  min-height: 0;
+}

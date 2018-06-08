@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+	outline: none !important;
+}
+
+::selection {
+  	background: #444;
+}
+
+html{
+ 	font-size:14px;
+	background: @main-bg-color;
+}
+
+body {
+	font-size:1rem;
+	background: transparent;
+ 	font-weight: 100;
+ 	font-family: 'Roboto Mono';
+
+	background: @main-bg-color;
+	color:@main-text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-weight: 400;
+}
+
+
+a {
+	color:@main-text-color;
+	opacity: .9;
+	text-decoration:none;
+
+	&:hover,
+	&:active{
+		opacity: 1;
+	}
+}
+
+.inactive{
+	pointer-events: none;
+}
+
+.btn {
+	text-align:center;
+	font-family: 'Roboto Mono';
+	font-weight: 300;
+	min-width: 12em;
+    padding: .8em 2em;
+    text-transform: uppercase;
+    border-radius: 1px;
+    box-shadow: none !important;
+
+    &.btn-reset{
+    	background-color: #ff9800;
+    }
+
+    &.btn-confirm {
+    	background-color: #009688;
+    }
+
+    &.btn-default {
+    	background-color: lighten(@main-bg-color, 5%) !important;
+    	color:@main-text-color;
+
+    	&:hover{
+    		background-color:lighten(@main-bg-color, 7%) !important;
+    	}
+
+    }
+
+}

@@ -1,0 +1,21 @@
+{
+	"plugins": [
+		["module-resolver", {
+      		"root": ["./src"]
+    	}],
+		["transform-runtime", {
+			"polyfill": false,
+			"regenerator": true
+		}]
+	],
+	"presets": [
+	    ["env", {
+	      "targets": {
+	      	"node": "8.1",
+	        "browsers": ["last 2 versions"]
+	      }
+	    }],
+		"stage-3",
+		"react"
+	]
+}

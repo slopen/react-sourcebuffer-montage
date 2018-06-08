@@ -1,0 +1,15 @@
+{
+	"APP_NAME": "react-sourcebuffer-montage",
+	"APP_HOST": "http://localhost:9900",
+
+	"APP_DEVPORT": 9090,
+	"APP_SERVER": 9900,
+
+	"VIDEO_CODECS": "video/webm; codecs=\"vorbis,vp8\"",
+
+	"MAX_RANGE_COUNT": 50,
+	"INSERT_RANGE_WIDTH": 3,
+	"INSERT_RANGE_MARGIN": 2
+}
+
+

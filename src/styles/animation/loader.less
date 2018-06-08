@@ -1,0 +1,55 @@
+.loader-bar {
+  @loader-bg-color: #000;
+
+  @step1: #6542a6;
+  @step2: #3b5999;
+  @step3: #3fa3c3;
+  @step4: #0176d7;
+  @step5: #e62217;
+
+  @keyframes loader-stripe {
+    0% {
+      transform: translate3d(-150%, 0, 0);
+    }
+    100% {
+      transform: translate3d(150%, 0, 0);
+    }
+  }
+
+  @keyframes loader-rainbow {
+    0% {
+      background: @step1;
+    }
+    25% {
+      background: @step2;
+    }
+    50% {
+      background: @step3;
+    }
+    75% {
+      background: @step4;
+    }
+    100% {
+      background: @step5;
+    }
+  }
+
+  display: block;
+  position: relative;
+  height: @loader-bar-height;
+  background: transparent;
+  overflow: hidden;
+  animation: loader-rainbow @loader-bar-speed infinite linear;
+
+  &:after {
+    display: block;
+    content: " ";
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    background: @loader-bg-color;
+    left: 0;
+    transform: translate3d(-150%, 0, 0);
+    animation: loader-stripe @loader-bar-speed infinite linear;
+  }
+}
